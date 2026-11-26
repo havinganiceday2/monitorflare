@@ -1,5 +1,8 @@
 {
-  "observability": {
+   "observability": {
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "redact_query_string": false,
     "logs": {
       "enabled": true,
       "head_sampling_rate": 1,
@@ -7,11 +10,11 @@
       "persist": true
     },
     "traces": {
-      "enabled": false,
+      "enabled": true,
       "head_sampling_rate": 1,
       "persist": true
     },
-    "issue_detection": {
+    "issues": {
       "enabled": true
     }
   },
