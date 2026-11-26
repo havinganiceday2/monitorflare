@@ -16,6 +16,13 @@
     }
   },
 
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "61696151-fe48-4f5e-bf76-5682a8c1d16a"
+    }
+  ],
+ 
   "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
   "name": "monitorflare-worker",
   "main": "worker/src/index.ts",
